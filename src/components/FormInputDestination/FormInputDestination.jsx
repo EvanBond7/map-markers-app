@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import DestinationPoint from '../DestinationPoint/DestinationPoint';
+import DestinationPoint from '../DestinationPoint/DestinationPoint';
 import './FormInputDestination.css';
 
 // function getCenterOfMap() {}
@@ -21,11 +21,11 @@ const FormInputDestination = () => {
           </label>
         </form>
       </div>
-      {/* {mapPoint && (
+      {mapPoint && (
         <ul>
           <DestinationPoint mapValue={mapPoint} />
         </ul>
-      )} */}
+      )}
     </div>
   );
 };
