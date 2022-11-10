@@ -1,0 +1,15 @@
+.map-canvas {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  border: 2px solid orange;
+  height: 500px;
+  width: 500px;
+}
+
+.marker {
+  background: #456bd9;
+  border: 0.1875em solid #0f1c3f;
+  border-radius: 50%;
+  height: 2.5em;
+  width: 2.5em;
+}
